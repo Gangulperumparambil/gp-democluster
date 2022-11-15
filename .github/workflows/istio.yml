@@ -41,7 +41,7 @@ jobs:
        #kubectl label namespace default istio-injection=enabled 
        kubectl label namespace default istio-injection=enabled --overwrite
        
- Job2:
+  Job2:
     needs: Job1
     name: Deploy Gateway
     runs-on: ubuntu-latest
