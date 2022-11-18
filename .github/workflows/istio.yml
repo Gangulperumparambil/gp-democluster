@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  EKS_CLUSTER: gpdemocluster
+  EKS_CLUSTER: gpclusternew
   EKS_REGION: us-east-2
 
 jobs:
