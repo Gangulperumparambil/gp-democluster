@@ -1,10 +1,10 @@
 name: Set up SSL
 
-# on:
+on:
 #  workflow_dispatch
-#   # push:
-#   #   branches:
-#   #   - main
+  push:
+    branches:
+    - main
 
 env:
   EKS_CLUSTER: gpclusternew
