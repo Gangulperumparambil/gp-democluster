@@ -10,5 +10,9 @@ spec:
         number: 443
         name: https
         protocol: HTTPS
+      tls:
+        mode: SIMPLE
+        credentialName: cert-ssl-secret 
       hosts:
         - '*.sreyo.in'
+        #- '*.managedorg.io'
